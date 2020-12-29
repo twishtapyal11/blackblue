@@ -17,6 +17,11 @@
          alt="Create React App version" />
   </a>
   
+  <a href="https://github.com/twishtapyal11/blackblue/pulls">
+    <img src="https://badgen.net/github/prs/twishtapyal11/blackblue" alt="Pull Request Amount">
+  </a>
+  <img src="https://badgen.net/github/last-commit/twishtapyal11/blackblue" alt="Last commit date" />
+            
   <a href="./LICENSE">
     <img src="https://badgen.net/badge/license/MIT/blue"
          alt="License">
