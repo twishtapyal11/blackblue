@@ -1,9 +1,8 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Icon, Box } from "@quarkly/widgets";
+import { Theme, Link, Text } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
-import { MdArrowDownward } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
 		<Helmet>
@@ -120,14 +119,6 @@ export default (() => {
 					</Text>
 				</StackItem>
 			</Stack>
-			<Box text-align="center" margin="96px 0 0 0">
-				<Text margin="8px 0" text-transform="uppercase">
-					Who we are
-				</Text>
-				<Icon category="md" margin="0 auto" icon={MdArrowDownward} />
-				<Icon category="md" margin="0 auto" icon={MdArrowDownward} />
-				<Icon category="md" margin="0 auto" icon={MdArrowDownward} />
-			</Box>
 		</Section>
 		<Section padding="100px 0" sm-padding="40px 0">
 			<Override slot="SectionContent" align-items="center" />
